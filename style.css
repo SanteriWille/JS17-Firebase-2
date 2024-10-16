@@ -1,0 +1,40 @@
+body {
+  text-align: center;
+}
+
+#enterDetails {
+  float: left;
+  width: 50%;
+  height: 24rem;
+  background-color: #494D5F;
+  color: #fff;
+}
+
+#findDetails {
+  float: right;
+  width: 50%;
+  height: 24rem;
+  background-color: #87CEEB;
+  color: #494D5F;
+}
+
+input {
+  width: 140px;
+  outline: none;
+  border: 1px solid black;
+}
+
+button {
+  font-size: 15px;
+  padding: 7px 17px;
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  color: black;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+button:hover {
+  background: plum;
+}
